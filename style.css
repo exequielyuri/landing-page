@@ -1,9 +1,63 @@
-.header, .overview, .footer {background-color: #1f2937;}
+body {
+    margin: 0;
 
-.summary, .prompt {background-color: #ffffff;}
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    color: #fff;
+    background-color: #1f2937;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.overview {
+    background-color: #1f2937;
+
+    
+}
+
+.big-img {
+    background-color: #888b91;
+    width: 350px;
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary {
+    background-color: #fff;
+}
 
 .message {
     background-color: #e5e7eb;
+}
+
+.prompt {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #1f2937;
 }
 
 /* make widths for placeholder */
