@@ -70,6 +70,7 @@ button {
     font-size: 18px;
     color: #f9faf8;
     
+    border-style: solid;
     background-color: #3882f6;
     border-color:#3882f6;
     border-radius: 10px;
@@ -155,17 +156,28 @@ button {
 }
 
 .call {
-    font-weight: 600;
-    font-size: 24px;
     color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.extra {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .bottom-button {
     border-color: #f9faf8;
-    border-style: solid;
 }
+
 
 .footer {
+    color: #f9faf8;
     background-color: #1f2937;
-}
+    font-size: 18px;
+    height: 100px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
