@@ -1,0 +1,9 @@
+.header, .overview, .footer {background-color: #1f2937;}
+
+.summary, .prompt {background-color: #ffffff;}
+
+.message {
+    background-color: #e5e7eb;
+}
+
+/* make widths for placeholder */
