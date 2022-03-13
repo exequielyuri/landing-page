@@ -1,1 +1,2 @@
-# landing-page
+# Landing Page
+This is the second [project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) from [TOP](https://www.theodinproject.com), which focuses on positioning and layout using [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
