@@ -4,22 +4,33 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    font-family: Roboto, sans-serif;
 }
 
 .header {
     color: #fff;
     background-color: #1f2937;
+    padding: 10px;
     
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+#logo {
+    font-weight: 650;
+    font-size: 15px;
+}
+
 ul {
-    display: flex;
+    font-size: 12px;
     list-style: none;
     margin: 0;
     padding: 0;
+    
+    display: flex;
+    align-items: center;
     gap: 16px;
 }
 
